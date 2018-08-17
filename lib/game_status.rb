@@ -30,6 +30,7 @@ end
 def full?(board)
  board.any? do |empty|
    if empty.empty?
+     return false
   end
 end
 true
