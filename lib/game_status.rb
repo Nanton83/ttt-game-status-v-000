@@ -28,7 +28,6 @@ false
 end
 
 def full?(board)
-  board.none? {|a| a.nil?}
+  board.none? do |space|
   end
-false
-end
+
