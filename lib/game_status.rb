@@ -29,6 +29,7 @@ end
 
 def full?(board)
   board.none? do |space|
+    if true
     return true
   end
   false
