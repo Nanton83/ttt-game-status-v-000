@@ -49,7 +49,7 @@ def over?(board)
 end
 
 def winner(board)
-  board.detect |token|
+  board.detect do |token|
   if won?(board) == true
     return token
   end
