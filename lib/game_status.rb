@@ -36,3 +36,5 @@ end
 true
 end
 
+def draw(board)
+end
