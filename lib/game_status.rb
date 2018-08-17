@@ -50,7 +50,7 @@ end
 
 def winner(board)
   board.detect do |token|
-  if won?(board) == true
+  if won?(token) == true
     return token
   end
 end
