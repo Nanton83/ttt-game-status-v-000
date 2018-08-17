@@ -29,7 +29,7 @@ end
 
 def full?(board)
  board.any? do |empty|
-   if empty.empty?
+   if position_taken?(board, empty)
      return false
   end
 end
