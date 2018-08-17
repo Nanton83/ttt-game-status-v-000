@@ -50,7 +50,7 @@ end
 
 def winner(board)
   if won?(board) == true
-    return winner#{index}
+    return winner
   end
 end
   
