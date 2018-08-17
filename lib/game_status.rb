@@ -51,7 +51,7 @@ end
 def winner(board)
   WIN_COMBINATIONS.each do |winner|
   if won?(board) == true
- return board[winner[0]]
+ return winner
   end
 end
  end 
