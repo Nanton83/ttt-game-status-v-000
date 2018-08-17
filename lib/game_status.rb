@@ -29,5 +29,6 @@ end
 
 def full?(board)
  board.any? do |empty|
+   if empty.empty?
   end
 end
