@@ -29,5 +29,6 @@ end
 
 def full?(board)
   board.none? {|a| a.nil?}
-  
-end    
+  end
+false
+end
