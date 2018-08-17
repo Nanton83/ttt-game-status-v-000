@@ -30,8 +30,7 @@ end
 def full?(board)
  board.any? do |empty|
    if position_taken?(board, empty)
-     return false
+     return true
   end
 end
-true
 end
