@@ -36,5 +36,5 @@ end
 true
 end
 
-def draw(board)
+def draw?(board)
 end
