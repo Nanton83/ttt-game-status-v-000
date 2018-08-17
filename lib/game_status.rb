@@ -28,6 +28,6 @@ false
 end
 
 def full?(board)
- 
+ board.any? do |empty|
   end
 
