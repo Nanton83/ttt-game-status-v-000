@@ -30,4 +30,4 @@ end
 def full?(board)
   board.none? do |space|
   end
-
+end
