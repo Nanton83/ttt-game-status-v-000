@@ -49,7 +49,7 @@ def over?(board)
 end
 
 def winner(board)
-  board.detect do |t|
-  
+  if won(board) == true && board[index] = "X"
+    return "X"
   end
 end
