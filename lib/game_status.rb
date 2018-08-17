@@ -49,8 +49,9 @@ def over?(board)
 end
 
 def winner(board)
+  WIN_COMBINATIONS.each do |winner|
   if won?(board) == true
-    return position_taken(board, winner[0])
+ return board[winner[0]]
   end
 end
   
