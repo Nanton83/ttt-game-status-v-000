@@ -29,8 +29,8 @@ end
 
 def full?(board)
  board.any? do |empty|
-   if position_taken?(board, empty)
-     return true
+   if empty == " "
+     return false
   end
 end
 end
