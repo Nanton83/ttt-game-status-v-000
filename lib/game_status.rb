@@ -32,3 +32,4 @@ def full?(board)
    if empty.empty?
   end
 end
+end
