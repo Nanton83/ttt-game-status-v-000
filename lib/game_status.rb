@@ -49,9 +49,7 @@ def over?(board)
 end
 
 def winner(board)
-  WIN_COMBINATIONS.each do |winner|
   if won?(board) == true
  return winner
   end
 end
- end 
