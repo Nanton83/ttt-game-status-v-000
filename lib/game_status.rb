@@ -51,7 +51,7 @@ end
 def winner(board)
   board.detect |token|
   if won?(board) == true
-    return winner
+    return token
   end
 end
   
